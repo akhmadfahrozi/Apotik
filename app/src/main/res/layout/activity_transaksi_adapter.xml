@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:gravity="center"
+        android:backgroundTint="#46C9BBBB"
+        android:background="@drawable/collor"
+        android:text="id"
+        android:id="@+id/tv_id"/>
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:background="@drawable/collor"
+        android:gravity="center"
+        android:id="@+id/staff"
+        android:text="id"
+        android:backgroundTint="#46ECE5E5"
+        android:layout_toRightOf="@+id/tv_id"/>
+
+
+    <TextView
+        android:id="@+id/customer"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/staff"
+        android:gravity="center"
+        android:backgroundTint="#46C9BBBB"
+        android:background="@drawable/collor"
+        android:text="id"
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:backgroundTint="#46ECE5E5"
+        android:id="@+id/doctor_id"
+        android:background="@drawable/collor"
+        android:layout_toRightOf="@+id/customer"
+        android:gravity="center"
+        android:text="id" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:id="@+id/subtotal"
+        android:background="@drawable/collor"
+        android:backgroundTint="#46C9BBBB"
+        android:layout_toRightOf="@+id/doctor_id"
+        android:gravity="center"
+        android:text="id" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:id="@+id/tax"
+        android:backgroundTint="#46ECE5E5"
+        android:background="@drawable/collor"
+        android:layout_toRightOf="@+id/subtotal"
+        android:gravity="center"
+        android:text="id" />
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:textColor="#000"
+        android:id="@+id/pay"
+        android:backgroundTint="#46C9BBBB"
+        android:background="@drawable/collor"
+        android:layout_toRightOf="@+id/tax"
+        android:gravity="center"
+        android:text="id" />
+
+
+</RelativeLayout>

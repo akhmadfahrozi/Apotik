@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/cari_nohp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#0C0C0C"
+            android:drawableRight="@drawable/ic_search_black_24dp"
+            android:hint="Cari Transaksi">
+        </EditText>
+
+        <Button
+            android:id="@+id/cari_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cari" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BE2020"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/collor"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:text="id"/>
+
+
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/collor"
+            android:textColor="#FFFFFF"
+            android:text="STAFF ID" />
+
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:background="@drawable/collor"
+            android:textColor="#FFFFFF"
+            android:text="CUSTOMER ID"/>
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/collor"
+            android:text="DOCTOR ID" />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/collor"
+            android:text="SUBTOTAL" />
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/collor"
+            android:text="TAX" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/collor"
+            android:text="PAY_AMT"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_isi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
