@@ -94,6 +94,7 @@ class Outlet : Fragment(),View.OnClickListener {
                 ) {
                     if (response.isSuccessful) {
                         data = response.body()?.data!!
+
                         adapter = outlet_adapter(data)
 
                         try {

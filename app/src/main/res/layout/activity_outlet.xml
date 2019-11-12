@@ -93,6 +93,16 @@
                 android:layout_height="wrap_content"
                 android:text="cari" />
         </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urut berdasarkan"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:id="@+id/softby"
+            android:entries="@array/sortby"
+            android:spinnerMode="dialog"
+            android:layout_height="wrap_content"/>
             </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView

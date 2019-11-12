@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sortby">Harga(murah-mahal)
+        <item>harga (murah-mahal)</item>
+        <item>harga (mahal-murah)</item>
+        <item>nama (A-Z)</item>
+        <item>nama (Z-A)</item>
+
+    </string-array>
+</resources>

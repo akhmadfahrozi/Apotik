@@ -7,7 +7,7 @@ import com.google.gson.annotations.SerializedName
 data class DataItem(
 
 	@field:SerializedName("price")
-	val price: String? = null,
+	val price: Double? = null,
 
 	@field:SerializedName("name")
 	val name: String? = null,
