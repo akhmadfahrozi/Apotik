@@ -14,12 +14,12 @@ class obat_adapter(private val model: List<DataItem>) :
     override fun onBindViewHolder(holder: obat_adapter.ViewHolder, position: Int) {
         val data = model[position]
         holder.tv_judul.text = data.name//nampilkan judul
-        holder.tv_alamat.text = data.price.toString()
+        holder.tv_alamat.text = data.price.toString()//bentuk decimal di database
         // holder.tv_view.text=data.viewer
         holder.tv_nohp.text=data.medsTypeId//nampilkan isi utama
         ct?.let {
 
-            //            Glide.with(it).load(NetworkModule.BASE_URL + "assets/gambar/${data.gambar}")
+            //Glide.with(it).load(NetworkModule.BASE_URL + "assets/gambar/${data.gambar}")
 //                .into(holder.iv_gambar)
         }//menampilkan gambar
     }
