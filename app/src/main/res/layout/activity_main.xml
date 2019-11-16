@@ -19,6 +19,6 @@
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="0dp"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/bottom_nav_menu" />
-
+        app:menu="@menu/bottom_nav_menu"/>
+    //app:labelVisibilityMode="labeled"--->nampilkan nama di bawah nav menu
 </RelativeLayout>

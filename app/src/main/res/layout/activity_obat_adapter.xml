@@ -34,9 +34,6 @@
                 android:contentDescription="TODO"
                 android:src="@mipmap/ic_launcher_obat_foreground" />
 
-
-
-
             <TextView
                 android:id="@+id/tv_type"
                 android:layout_width="wrap_content"
@@ -60,16 +57,7 @@
                 android:text="stock="
                 android:textColor="@color/primary_text_default_material_light"
                 android:textSize="16sp" />
-            <TextView
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="7dp"
-                android:layout_toRightOf="@id/tv_nama_obat"
-                android:gravity="center_vertical"
-                android:text="NAMA OUTLET"
-                android:textColor="@color/primary_text_default_material_light"
-                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/tv_price"
@@ -83,9 +71,6 @@
                 android:text="price"
                 android:textColor="@color/secondary_text_default_material_light"
                 android:textSize="12sp" />
-
-
-
         </RelativeLayout>
 
     </androidx.cardview.widget.CardView>
